@@ -8,3 +8,9 @@ function testFunction(arg1, arg2) {
 
 testFunctionOne()
 testFunction('1',4)
+
+// Anonymous function
+let func = () => {
+	console.log(`Hello from anonymous function`)
+}
+console.log(func())
